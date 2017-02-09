@@ -1,9 +1,12 @@
 # erl_plugins
 =====
 
-An OTP application
+##An OTP application
 
-Build
+##Build
 -----
 
     $ rebar3 compile
+## TODO
+<t> gpb
+<t> dialyzer
