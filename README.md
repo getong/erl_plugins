@@ -8,5 +8,5 @@
 $ rebar3 compile
 ```
 ## TODO
-- [] gpb
-- [] dialyzer
+- [ ] gpb
+- [ ] dialyzer
