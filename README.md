@@ -1,5 +1,4 @@
 # erl_plugins
-=====
 
 ##An OTP application
 
