@@ -9,7 +9,7 @@
 %%% API
 %%%===================================================================
 %% copy from ejabberd randoms.erl
--ifdef(STRONG_RAND_BYTES).
+-ifdef(strong_rand_bytes).
 bytes(N) ->
 	crypto:strong_rand_bytes(N).
 -else.
