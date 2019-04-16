@@ -5,7 +5,8 @@
   {mod, { erl_plugins_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    lager
    ]},
   {env,[]},
   {modules, []},

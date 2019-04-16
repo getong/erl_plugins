@@ -1,14 +1,24 @@
 {"1.1.0",
-[{<<"eper">>,
-  {git,"https://github.com/massemanet/eper",
-       {ref,"f23776f716aaa8e8746ea4195a11df3605d6a885"}},
-  0},
+[{<<"eper">>,{pkg,<<"eper">>,<<"0.99.1">>},0},
  {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
- {<<"lager">>,{pkg,<<"lager">>,<<"3.4.2">>},0},
- {<<"recon">>,{pkg,<<"recon">>,<<"2.3.2">>},0}]}.
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.6.9">>},0},
+ {<<"mysql">>,
+  {git,"https://github.com/mysql-otp/mysql-otp.git",
+       {ref,"9a98eff7a127a5012c45e4b8bd845b0befccf0a9"}},
+  1},
+ {<<"mysql_poolboy">>,
+  {git,"https://github.com/mysql-otp/mysql-otp-poolboy",
+       {ref,"5f5434668193d91c2ce60713a403710cd5775ce1"}},
+  0},
+ {<<"poolboy">>,
+  {git,"https://github.com/devinus/poolboy.git",
+       {ref,"29be47db8c2be38b18c908e43a80ebb7b9b6116b"}},
+  1},
+ {<<"recon">>,{pkg,<<"recon">>,<<"2.4.0">>},0}]}.
 [
 {pkg_hash,[
+ {<<"eper">>, <<"A50698B6803B8732AD6575285320999FE73E160A1A9FF7EFCAB6B6F818BD2C1F">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
- {<<"lager">>, <<"150B9A17B23AE6D3265CC10DC360747621CF217B7A22B8CDDF03B2909DBF7AA5">>},
- {<<"recon">>, <<"4444C879BE323B1B133EEC5241CB84BD3821EA194C740D75617E106BE4744318">>}]}
+ {<<"lager">>, <<"387BCD836DC0C8AD9C6D90A0E0CE5B29676847950CBC527BCCC194A02028DE8E">>},
+ {<<"recon">>, <<"901FF78B39C754FB4D6FD72DCF0DBD398967BBD2E4D59C08D4D7AA44A73DE91D">>}]}
 ].
